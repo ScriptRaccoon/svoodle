@@ -1,90 +1,90 @@
 :root {
-    --primary-color: rebeccapurple;
-    --secondary-color: purple;
-    --gray-color: #666;
-    --light-gray-color: #999;
-    --light-color: #ddd;
-    --error-color: red;
-    --success-color: forestgreen;
+	--primary-color: rebeccapurple;
+	--secondary-color: purple;
+	--gray-color: #666;
+	--light-gray-color: #999;
+	--light-color: #ddd;
+	--error-color: red;
+	--success-color: forestgreen;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 button {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 ul {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 a {
-    color: inherit;
+	color: inherit;
 }
 
 h2 {
-    font-size: 30px;
+	font-size: 30px;
 }
 
 input,
 textarea {
-    color: inherit;
-    font-size: inherit;
-    font-family: inherit;
-    padding: 6px;
-    border-radius: 4px;
-    border: 1px solid var(--light-gray-color);
+	color: inherit;
+	font-size: inherit;
+	font-family: inherit;
+	padding: 6px;
+	border-radius: 4px;
+	border: 1px solid var(--light-gray-color);
 }
 
 .error {
-    color: var(--error-color);
-    margin: 10px 0px;
+	color: var(--error-color);
+	margin: 10px 0px;
 }
 
 button {
-    color: inherit;
-    font-size: inherit;
-    font-family: inherit;
-    border: none;
-    background: none;
+	color: inherit;
+	font-size: inherit;
+	font-family: inherit;
+	border: none;
+	background: none;
 }
 
 .button {
-    padding: 6px 12px;
-    background-color: var(--secondary-color);
-    color: white;
-    border-radius: 4px;
+	padding: 6px 12px;
+	background-color: var(--secondary-color);
+	color: white;
+	border-radius: 4px;
 }
 
 button:hover,
 button:focus-visible {
-    filter: brightness(1.2);
+	filter: brightness(1.2);
 }
 
 .control {
-    color: var(--gray-color);
-    padding: 5px;
-    font-size: 20px;
+	color: var(--gray-color);
+	padding: 5px;
+	font-size: 20px;
 }
 
 .control:hover,
 .control:focus-visible {
-    color: black;
+	color: black;
 }
 
 .centered {
-    text-align: center;
+	text-align: center;
 }
 
 .container {
-    max-width: 420px;
-    margin: 0 auto;
+	max-width: 420px;
+	margin: 0 auto;
 }

@@ -1,0 +1,27 @@
+<script>
+	import "../app.css";
+	import Header from "$lib/Header.svelte";
+</script>
+
+<svelte:head>
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"
+	/>
+</svelte:head>
+
+<Header />
+
+<main>
+	<slot />
+</main>
+
+<style>
+	main {
+		padding: 20px;
+		overflow: auto;
+	}
+</style>

@@ -6,5 +6,5 @@ node_modules
 .env
 .env.*
 !.env.example
-todo.txt
-.netlify
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
